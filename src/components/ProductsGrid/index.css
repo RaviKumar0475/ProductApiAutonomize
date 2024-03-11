@@ -1,0 +1,65 @@
+.productSection{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(74, 99, 97);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-grid{
+    display:flex;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:30px;
+    justify-content: center;
+    
+    
+}
+.selectSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+select{
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;    
+    width:20vw;
+    margin:10px;
+    height:300px;
+    background-color: rgb(80, 73, 73);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px ;
+    
+}
+img{
+    height:200px;
+    width:200px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.productTitle{
+   
+    font-family: "Roboto";
+    font-size:15px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+    background-color: rgb(187, 184, 186);
+    margin: 20px;
+    border-radius: 5px;
+}
+h1{
+    margin-right: 30px;
+}
